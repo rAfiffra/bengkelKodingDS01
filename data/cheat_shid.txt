@@ -1,0 +1,120 @@
+aku mau membuat model AI dengan Machine Learning dengan ketentuan seperti pada Capstone_DS_Bengkel Koding_Genap.pdf dengan menggunakan platform google colabs
+
+dengan data ObesityDataSet.csv
+
+dari tahapan awal yaitu EDA hingga deployment pada platform streamlit cloud
+
+untuk keterangan dataset nya seperti dibawah ini:
+~ Height : Fitur, Kontinu — "Tinggi badan" 
+~ Weight : Fitur, Kontinu — "Berat badan" 
+~ family_history_with_overweight : Fitur, Biner — "Apakah ada anggota keluarga yang pernah atau sedang mengalami kelebihan berat badan?"
+~ FAVC :  Fitur, Biner — "Apakah Anda sering mengonsumsi makanan tinggi kalori?"
+~ FCVC : Fitur, Integer — "Apakah Anda biasanya makan sayuran dalam setiap
+kali makan?"
+~ NCP : Fitur, Kontinu — "Berapa kali Anda makan besar dalam sehari?"
+~ CAEC : Fitur, Kategorikal — "Apakah Anda makan camilan di antara waktu
+makan?"
+~ MOKE : Fitur, Biner — "Apakah Anda merokok?"
+~ CH2O : Fitur, Kontinu — "Berapa banyak air yang Anda minum setiap hari?" 
+~ SCC : Fitur, Biner — "Apakah Anda memantau asupan kalori harian Anda?" 
+~ FAF : Fitur, Kontinu — "Seberapa sering Anda melakukan aktivitas fisik?" 
+~ TUE : Fitur, Integer — "Berapa lama Anda menggunakan perangkat teknologi seperti ponsel, video game, televisi, komputer, dan lainnya?"
+~ CALC : Fitur, Kategorikal — "Seberapa sering Anda mengonsumsi alkohol?" 
+~ MTRANS : Fitur, Kategorikal — "Jenis transportasi apa yang biasa Anda
+gunakan?"
+~ NObeyesdad : Target, Kategorikal — "Tingkat obesitas" 
+
+
+untuk langkah pengerjaanya sendiri adalah sebagai berikut :
+1. Exploratory Data Analysis (EDA)
+	- Tampilkan beberapa baris pertama dan informasi umum dataset seperti jumlah
+	   baris, kolom, deskripsi data dan tipe data.
+	- Tampilkan visualisasi data.
+	- Cek keberadaan missing values, unique value, data duplikat, keseimbangan
+	   data, dan deteksi outlier menggunakan boxplot.
+	- Buat kesimpulan dari proses yang dilakukan pada tahap ini. 
+
+2. Preprocessing Data
+	- Tangani missing values, error, duplikasi, dan outlier di setiap kolom- Ubah data kategori menjadi numerik.
+	- Tentukan apakah semua feature perlu digunakan.
+	- Atasi ketidakseimbangan kelas data.
+	- Lakukan normalisasi atau standarisasi data.
+	- Buat kesimpulan dari proses yang dilakukan pada tahap ini. 
+
+3. Pemodelan dan Evaluasi
+	- Lakukan pemodelan menggunakan minimal 3 algoritma klasifikasi.
+	- Komparasi hasilnya satu sama lain. 
+	- Lakukan evaluasi dengan menggunakan confusion matrix, akurasi, presisi,
+	  recall, dan F1- score.
+	- Tampilkan visualisasi perbandingan performa antar model.
+	- Buat kesimpulan dari proses yang dilakukan pada tahap ini. 
+
+4. Hyperparameter Tuning
+	- Lakukan optimasi hyperparameter tuning menggunakan GridSearchCV atau
+	   RandomizedSearchCV.
+	- Latih ulang model dengan parameter terbaik dan evaluasi kembali untuk melihat
+	   peningkatan performa.
+	- Tampilkan visualisasi perbandingan performa antar model sebelum dan sesudah
+	   optimasi.
+	- Buat kesimpulan dari proses yang dilakukan pada tahap ini. 
+
+5. Deployment
+	- Implementasikan dalam bentuk deployment secara online dengan ketentuan
+	   template deployment berdasarkan kreativitas mahasiswa masing-masing.
+	   (contoh: Streamlit, Flask, Laravel, NextJS, Django, Fast API).
+Tutorial deployment ke streamlit cloud: https://youtu.be/HKoOBiAaHGg
+
+6. Kesimpulan
+	Buatlah kesimpulan akhir dari keseluruhan tahap yang telah dilakukan. 
+	Berikan informasi penting secara singkat dan jelas. 
+
+
+
+
+
+
+===================================================================================================
+pertama aku mau kamu untuk sekarang dan seterusnya berfikir seperti seorang data analis yang profesional yang sudah sering menangani data kotor seperti ini. dan dapat memberikan hasil yang tinggi dan mudah di pahami.
+
+aku mau membuat model Machine Learning dengan ketentuan seperti pada Capstone_DS_Bengkel Koding_Genap.pdf dengan menggunakan platform google colabs
+
+dengan dataset ObesityDataSet.csv
+
+untuk keterangan dataset nya seperti dibawah ini:
+~ Height : Fitur, Kontinu — "Tinggi badan" 
+~ Weight : Fitur, Kontinu — "Berat badan" 
+~ family_history_with_overweight : Fitur, Biner — "Apakah ada anggota keluarga yang pernah atau sedang mengalami kelebihan berat badan?"
+~ FAVC :  Fitur, Biner — "Apakah Anda sering mengonsumsi makanan tinggi kalori?"
+~ FCVC : Fitur, Integer — "Apakah Anda biasanya makan sayuran dalam setiap
+kali makan?"
+~ NCP : Fitur, Kontinu — "Berapa kali Anda makan besar dalam sehari?"
+~ CAEC : Fitur, Kategorikal — "Apakah Anda makan camilan di antara waktu
+makan?"
+~ MOKE : Fitur, Biner — "Apakah Anda merokok?"
+~ CH2O : Fitur, Kontinu — "Berapa banyak air yang Anda minum setiap hari?" 
+~ SCC : Fitur, Biner — "Apakah Anda memantau asupan kalori harian Anda?" 
+~ FAF : Fitur, Kontinu — "Seberapa sering Anda melakukan aktivitas fisik?" 
+~ TUE : Fitur, Integer — "Berapa lama Anda menggunakan perangkat teknologi seperti ponsel, video game, televisi, komputer, dan lainnya?"
+~ CALC : Fitur, Kategorikal — "Seberapa sering Anda mengonsumsi alkohol?" 
+~ MTRANS : Fitur, Kategorikal — "Jenis transportasi apa yang biasa Anda
+gunakan?"
+~ NObeyesdad : Target, Kategorikal — "Tingkat obesitas" 
+
+untuk langkah pertama aku mau kamu melakukan beberapa tugas dengan garis besar seperti dibawah ini :
+1. Exploratory Data Analysis (EDA)
+	- Tampilkan beberapa baris pertama dan informasi umum dataset seperti jumlah
+	   baris, kolom, deskripsi data dan tipe data.
+	- Tampilkan visualisasi data.
+	- Cek keberadaan missing values, unique value, data duplikat, keseimbangan
+	   data, dan deteksi outlier menggunakan boxplot.
+	- Buat kesimpulan dari proses yang dilakukan pada tahap ini. 
+
+untuk setiap pointnya pada google colabs buatkan agar terpisah per sellnya agar mudah mengidentifikasi apa yang terjadi, sertakan deskripsi singkat tentang apa yang dilakukan pada sell tersebut.
+
+untuk pengolahan datanya aku serahkan kepadamu agar mendapatkan hasil yang maksimal, agar datasetnya mudah di olah datasetnya harus dibersihkan terleebih dahulu
+
+jika ada yang kurang tolong berikan saran, apakah ada tambahan? jika tidak bisa memulai mengidentifikasi masalah sebelum mengerjakan
+
+===================================================================================================
+
+
